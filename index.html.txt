@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Bazaar</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-white text-black font-sans">
+  <header class="bg-gray-100 p-4 flex justify-between items-center">
+    <h1 class="text-xl font-bold">My Bazaar</h1>
+    <nav class="space-x-4">
+      <a href="#" class="hover:underline">Home</a>
+      <a href="#" class="hover:underline">Categories</a>
+      <a href="#" class="hover:underline">Deals</a>
+      <a href="#" class="hover:underline">New Arrivals</a>
+    </nav>
+  </header>
+
+  <main class="p-4">
+    <h2 class="text-lg font-semibold mb-2">Welcome to My Bazaar!</h2>
+    <p class="mb-4">Shop the best deals and latest arrivals here.</p>
+  </main>
+
+  <footer class="bg-gray-100 p-4 text-center text-sm">
+    Pay via UPI: <strong>6200882416@fam</strong>
+  </footer>
+</body>
+</html>
